@@ -28,10 +28,13 @@
     "file-lock"
   ],
   "license": "MIT",
+  "homepage": "https://github.com/tuulbelt/file-based-semaphore-ts#readme",
+  "bugs": {
+    "url": "https://github.com/tuulbelt/tuulbelt/issues"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tuulbelt/tuulbelt.git",
-    "directory": "file-based-semaphore-ts"
+    "url": "https://github.com/tuulbelt/file-based-semaphore-ts.git"
   },
   "engines": {
     "node": ">=18.0.0"
