@@ -245,19 +245,19 @@ npm run test:stress   # Stress tests (15 tests)
 
 This tool validates itself using other Tuulbelt tools:
 
-**[Test Flakiness Detector](../test-flakiness-detector/)** - Validates test determinism:
+**[Test Flakiness Detector](https://github.com/tuulbelt/test-flakiness-detector)** - Validates test determinism:
 ```bash
 ./scripts/dogfood-flaky.sh 10
 # ✅ NO FLAKINESS DETECTED (160 tests × 10 runs = 1,600 executions)
 ```
 
-**[Output Diffing Utility](../output-diffing-utility/)** - Proves identical outputs:
+**[Output Diffing Utility](https://github.com/tuulbelt/output-diffing-utility)** - Proves identical outputs:
 ```bash
 ./scripts/dogfood-diff.sh
 # ✅ IDENTICAL (verified by odiff)
 ```
 
-**Cross-language validation with Rust [sema](../file-based-semaphore/):**
+**Cross-language validation with Rust [sema](https://github.com/tuulbelt/file-based-semaphore):**
 ```bash
 ./scripts/dogfood-sema.sh
 # TypeScript creates lock → Rust reads it ✅
@@ -268,8 +268,8 @@ See [DOGFOODING_STRATEGY.md](DOGFOODING_STRATEGY.md) for details.
 
 ## Related Tools
 
-- **[file-based-semaphore](../file-based-semaphore/)** - Rust implementation (same lock file format)
-- **[port-conflict-resolver](../port-conflict-resolver/)** - Uses this semaphore for port allocation (coming soon)
+- **[file-based-semaphore](https://github.com/tuulbelt/file-based-semaphore)** - Rust implementation (same lock file format)
+- **[test-port-resolver](https://github.com/tuulbelt/test-port-resolver)** - Uses this semaphore for port allocation
 
 Part of the [Tuulbelt](https://github.com/tuulbelt/tuulbelt) collection.
 
@@ -281,7 +281,7 @@ Part of the [Tuulbelt](https://github.com/tuulbelt/tuulbelt) collection.
 
 **[▶ View interactive recording on asciinema.org](https://asciinema.org/a/NooCDeMJ5s1KjVvjgoCtCsXw0)**
 
-> Try it online: [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/tuulbelt/tuulbelt/tree/main/file-based-semaphore-ts)
+> Try it online: [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/tuulbelt/file-based-semaphore-ts)
 
 ## License
 
