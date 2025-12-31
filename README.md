@@ -279,7 +279,7 @@ Part of the [Tuulbelt](https://github.com/tuulbelt/tuulbelt) collection.
 
 ![Demo](docs/demo.gif)
 
-**[▶ View interactive recording on asciinema.org](#)**
+**[▶ View interactive recording on asciinema.org](https://asciinema.org/a/0x3TB8Gl6UCcb9U5BcmHGHqei)**
 
 > Try it online: [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/tuulbelt/file-based-semaphore-ts)
 
