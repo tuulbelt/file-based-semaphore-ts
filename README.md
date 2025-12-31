@@ -29,6 +29,7 @@ When multiple processes need to coordinate access to a shared resource (files, p
 ## Installation
 
 ```bash
+git clone https://github.com/tuulbelt/file-based-semaphore-ts.git
 cd file-based-semaphore-ts
 npm install  # Install dev dependencies only
 ```
