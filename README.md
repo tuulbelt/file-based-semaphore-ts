@@ -286,4 +286,4 @@ Part of the [Tuulbelt](https://github.com/tuulbelt/tuulbelt) collection.
 
 ## License
 
-MIT
+MIT — see [LICENSE](LICENSE)
