@@ -1,3 +1,5 @@
+> **Part of [Tuulbelt](https://github.com/tuulbelt/tuulbelt)** — A collection of zero-dependency tools.
+
 # File-Based Semaphore (TypeScript) / `semats`
 
 [![Tests](https://github.com/tuulbelt/file-based-semaphore-ts/actions/workflows/test.yml/badge.svg)](https://github.com/tuulbelt/file-based-semaphore-ts/actions/workflows/test.yml)
